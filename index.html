@@ -7,6 +7,15 @@
         <link rel="stylesheet" type="text/css" href="src/styles.css" />
         <script type="text/javascript" src="src/index.js"></script>
         <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=cd8cc1b2-3698-4bab-b838-d3bea05cbf36" type="text/javascript"></script>
+        <script type="text/javascript">
+            ymaps.ready(init);
+            function init(){
+                var myMap = new ymaps.Map("map", {
+                    center: [55.76, 37.64],
+                    zoom: 7
+                });
+            }
+        </script>
     </head>
     <body>
         <div id="map"></div>
