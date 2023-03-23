@@ -1,4 +1,239 @@
-#map {
-    height: 400px;
-    width: 600px;;
+h2{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+text-align: center;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+
+color: #142B35;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+h3{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #738697;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.menu{
+  /* menu */
+
+
+position: sticky;
+width: 1440px;
+height: 99px;
+left: 0px;
+top: 0px;
+}
+nav{
+/* nav */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+left: 26.39%;
+right: 33.96%;
+top: 39.39%;
+bottom: 41.41%;
+}
+.line-2{
+position: absolute;
+left: 73.12%;
+right: 24.51%;
+top: 32.32%;
+bottom: 67.68%;
+
+border: 1px solid #E0E0E0;
+transform: rotate(90deg);
+}
+.map {
+  position: absolute;
+  width: 1440px;
+  height: 551px;
+  left: 0px;
+  top: 2606px;
   }
+.blog{
+position: absolute;
+width: 1440px;
+height: 767px;
+left: 0px;
+top: 3205px;
+}
+.blog-title{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 904px;
+
+position: absolute;
+width: 1320px;
+height: 66px;
+left: 60px;
+top: 80px;
+}
+.title{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+width: 306px;
+height: 66px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.btn{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 14px 24px;
+gap: 10px;
+width: 110px;
+height: 47px;
+border: 1px solid #3A98B2;
+border-radius: 5px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.btn-article{
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+color: #3A98B2;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.blog-image{
+  position: absolute;
+  height: 295px;
+  width: 429px;
+  top: 186px;
+background-image: url('../assets/kelly-sikkema-WIYtZU3PxsI-unsplash.jpg');
+border-radius: 5px;
+}
+#image-left{
+left: 60px;
+}
+#image-center{
+  left: 505px;
+}
+#image-right{
+left: 950px;
+}
+footer{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px 60px;
+gap: 10px;
+
+position: absolute;
+width: 1440px;
+height: 116px;
+left: 0px;
+top: 3972px;
+
+background: #FCFDFE;
+}
+.group-105{
+  width: 1320px;
+  height: 36px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.line-17{
+  /* Line 17 */
+position: absolute;
+height: 0px;
+width: 1318px;
+left: 60px;
+top: 40px;
+border-radius: nullpx;
+border: 1px solid #E0E0E0;
+}
+.footer-text{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+color: #142B35;
+opacity: 0.5;
+top: 56px;
+}
+#footer-text-right{
+/* Made by Comrade */
+position: absolute;
+height: 20px;
+width: 106px;
+left: 1274px;
+border-radius: nullpx;
+
+}
+#footer-text-left{
+  position: absolute;
+  height: 20px;
+  width: 300px;
+  left: 60px;
+  border-radius: nullpx;
+  
+  }
+#footer-text-center-left{
+position: absolute;
+height: 20px;
+width: 222px;
+left: 505px;
+border-radius: nullpx;
+
+}
+#footer-text-center-right{
+position: absolute;
+height: 20px;
+width: 208px;
+left: 771px;
+border-radius: nullpx;
+
+}

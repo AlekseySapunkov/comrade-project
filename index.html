@@ -5,19 +5,39 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Alliance moving & storage</title>
         <link rel="stylesheet" type="text/css" href="src/styles.css" />
-        <script src="https://api-maps.yandex.ru/2.1/?apikey=cd8cc1b2-3698-4bab-b838-d3bea05cbf36&lang=ru_RU" type="text/javascript"></script>
-        <script type="text/javascript">
-            ymaps.ready(init);
-            function init(){
-                var myMap = new ymaps.Map("map", {
-                    center: [55.76, 37.64],
-                    zoom: 7
-                });
-            }
-        </script>
     </head>
     <body>
-        <div id="map"></div>
+        <header class="menu">
+            <nav>
+
+            </nav>
+            <hr class="line-2"> 
+        </header>
+        <img class="map" src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Ae690af1c50fa443c330de44de8edd985f5a7e66deea496c6c294f3aa59c52778&amp;width=600&amp;height=450&amp;lang=en_US" style="border: 0;" alt="3201 TOLLVIEW DRIVE ROLLING MEADOWS, IL 60008">
+        <div class="blog">
+            <div class="blog-title">
+            <div class="title">
+                <h3>BLOG</h3>
+                <h2>OUR LATEST MOVING TIP</h2>
+            </div>
+            <button class="btn">
+                <a class="btn-article" href="#" role="button" target="_blank" style=" text-decoration: none">View All</a>
+            </button>
+            </div>
+            <div><div class="blog-image" id="image-left"></div></div>
+            <div><div class="blog-image" id="image-center"></div></div>
+            <div><div class="blog-image" id="image-right"></div></div>
+
+        </div>
+        <footer class="footer">
+            <div class="group-105">
+                <hr class="line-17">
+                <p class="footer-text" id = "footer-text-left">© Alliance Moving and Storage. All Rights Reserved</p>
+                <p class="footer-text" id = "footer-text-center-left">Privacy policy | Consumer Information </p>
+                <p class="footer-text" id = "footer-text-center-right">ITLL MC: 214854 - USDOT: 2882675</p>
+                <p class="footer-text" id = "footer-text-right">Made by Comrade</p>
+            </div>
+        </footer>
     </body>
     
 
