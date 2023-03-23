@@ -1,17 +1,19 @@
-/**
- * @license
- * Copyright 2019 Google LLC. All Rights Reserved.
- * SPDX-License-Identifier: Apache-2.0
- */
-// [START maps_map_simple]
-let map;
+var myMap;
 
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
-  });
+// Дождёмся загрузки API и готовности DOM.
+ymaps.ready(init);
+
+function init () {
+    // Создание экземпляра карты и его привязка к контейнеру с
+    // заданным id ("map").
+    myMap = new ymaps.Map('map', {
+        // При инициализации карты обязательно нужно указать
+        // её центр и коэффициент масштабирования.
+        center: [55.76, 37.64], // Москва
+        zoom: 10
+    }, {
+        searchControlProvider: 'yandex#search'
+    });
+
+
 }
-
-window.initMap = initMap;
-// [END maps_map_simple]
