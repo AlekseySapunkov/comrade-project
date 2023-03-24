@@ -71,7 +71,9 @@ width: 1440px;
 height: 688px;
 left: 0px;
 top: 99px;
-background-image: url('../assets/shutterstock_795013699\ 1.jpg');
+background:  linear-gradient(rgba(55, 46, 46, 0.4), rgba(55, 46, 46, 0.4)),
+url('../assets/shutterstock_795013699\ 1.jpg');
+
 }
 .container{
   position: absolute;
@@ -84,13 +86,13 @@ background-image: url('../assets/shutterstock_795013699\ 1.jpg');
 #line-14{
   float: left;
   margin: auto;
-  width: 88px;
-  height: 0px;
+  height: 88px;
+  width: 0px;
 border: 2px solid #F2B91D;
-transform: rotate(90deg);
 }
 .line-14-text{
 font-weight: 600;
+margin-left: 32px;
 font-size: 40px;
 line-height: 47px;
 text-transform: capitalize;
