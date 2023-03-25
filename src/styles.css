@@ -20,21 +20,25 @@ order: 1;
 flex-grow: 0;
 }
 h3{
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 20px;
-text-align: center;
-letter-spacing: 0.1em;
-color: #738697;
-flex: none;
-order: 0;
-flex-grow: 0;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  
 }
 p{
 font-family: 'Work Sans';
 font-style: normal;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color: #5B6E76;
+
+
 }
 .menu{
   /* menu */
@@ -102,14 +106,41 @@ url('../assets/shutterstock_795013699\ 1.jpg');
   width: 704px;
   height: 94px;
   left: 60px;
-  top: 448px;
+  top: 349px;
+}
+.container-cards{
+position: absolute;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: auto;
+left: 60px;
+top: 1058px;
+background: #FFFFFF;
+}
+.card{
+  width: 429px;
+  height: 378px;
+  box-shadow: 1px 1px 12px rgba(71, 71, 71, 0.06);
+}
+.card:hover{
+  color: #3A98B2;
+}
+.card-image{
+  margin-top: 56px;
+  margin-left: 171px;
+  width: 88px;
+  height: 88px;
+}
+.card-text{
+  margin: 16px auto auto auto;
 }
 #line-14{
   float: left;
   margin: auto;
   height: 88px;
   width: 0px;
-border: 2px solid #F2B91D;
+  border: 2px solid #F2B91D;
 }
 .line-14-text{
 font-weight: 600;
@@ -157,6 +188,15 @@ color: #142B35;
 .btn-quote:hover{
   background: #328BA4;
 }
+.slogan{
+  position: absolute;
+  width: 442px;
+  height: 54px; 
+  top: 964px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
 #btn-quote{
   margin: auto;
   font-family: 'Work Sans';
@@ -170,18 +210,23 @@ color: #142B35;
   flex-grow: 0;
 }
 #main-image-text{
+text-align: left;
 position: absolute;
 width: 526px;
 height: 108px;
 left: 92px;
-top: 558px;
-font-weight: 500;
-font-size: 16px;
-line-height: 27px;
+top: 441px;
+margin-top: 16px;
 color: #FFFFFF;
 }
-.what-we-do{
+.grey-text{
 position: absolute;
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.1em;
+text-align: center;
 white-space: nowrap;
 width: 90px;
 height: 20px;
