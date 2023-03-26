@@ -42,9 +42,8 @@ letter-spacing: 0em;
 text-align: center;
 color: #5B6E76;
 }
-A:visited {
+A:link {
   color:  #142B35;
-  /* Цвет посещенных ссылок */
  }
  span{
   color: #F2B91D;
