@@ -83,10 +83,11 @@
         </div>
         <div class="container-form">
         <div class="wrap-form">
+            <b class="form-title">Get In Touch</b>
             <form method="post" action="form.php">
                 <div>
                   <label for="full Name">Full Name <span>*</span></label><br>
-                  <input type="text" name="name" required>
+                  <input type="text"  size="25"name="name" required>
                 </div>
                 <div>
                   <label for="phone *">Phone <span>*</span></label><br>
@@ -98,9 +99,10 @@
                 </div> 
                 <div>
                     <label for="notes">Notes</label><br>
-                    <input type="notes" name="notes" >
+                    <textarea name="comment" id="comment" cols="6" rows="2"> </textarea>
+                    
                   </div> 
-                <button class = "submit" type="submit">Submit</button> 
+                    <button class = "btn-submit" type="submit">Submit</button>
               </form> 
         </div>
     </div>

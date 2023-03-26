@@ -155,20 +155,57 @@ width: 1440px;
 height: 676px;
 left: 2px;
 top: 1930px;
-
-background: #ABD2D9;
-opacity: 0.04;
+}
+.form-tite{
+position: absolute;
+width: 149px;
+height: 28px;
+left: 1031px;
+top: 2066px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #142B35;
 }
 .wrap-form{
   position: absolute;
   width: 548px;
   height: 516px;
   left: 832px;
-  top: 2010px;
-  
+  color: #5B6E76;
+  top: 0;
+  z-index: 2;
   background: #FFFFFF;
   box-shadow: 1px 1px 12px rgba(71, 71, 71, 0.06);
   border-radius: 5px;
+}
+.btn-submit{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 24px;
+  gap: 10px;
+  position: absolute;
+  width: 105px;
+  height: 47px;
+  left:224px;
+  top: 413px;
+  background: #F2B91D;
+  border-radius: 5px;
+  width: 57px;
+height: 19px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 .line-14-text{
 font-weight: 600;
