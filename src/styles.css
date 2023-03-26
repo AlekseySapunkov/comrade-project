@@ -20,7 +20,7 @@ letter-spacing: 0,1em;
 text-transform: uppercase;
 color: #142B35;
 flex: none;
-order: 1;
+order: 0;
 flex-grow: 0;
 }
 h3{
@@ -45,6 +45,9 @@ color: #5B6E76;
 A:visited {
   color:  #142B35;
   /* Цвет посещенных ссылок */
+ }
+ span{
+  color: #F2B91D;
  }
 .menu{
   /* menu */
@@ -155,33 +158,149 @@ width: 1440px;
 height: 676px;
 left: 2px;
 top: 1930px;
+padding-left: 58px;
+}
+.frame-111{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  width: 566.92px;
+  height: 24px;
+  left: 58px;
+  top: 374px;
+}
+.frame-110{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  
+  position: absolute;
+  width: 469.46px;
+  height: 24px;
+  left: 58px;
+  top: 414px;
+}
+.frame-109{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  width: 211.79px;
+  height: 24px;
+  left: 58px;
+  bottom: 198px;
+}
+.frame-106{
+  position: absolute;
+  display: block;
+justify-content: left;
+padding: 0px;
+gap: 16px;
+width: 740px;
+height: 136px;
+flex: none;
+order: 0;
+flex-grow: 0;
+left: 58px;
+top: 198px;
 }
 .form-tite{
 position: absolute;
 width: 149px;
 height: 28px;
-left: 1031px;
-top: 2066px;
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 28px;
+left: 199px;
 color: #142B35;
 }
+.input{
+  margin-bottom: 1rem;
+}
 .wrap-form{
+  display: flex;
+  justify-content: center;
   position: absolute;
   width: 548px;
   height: 516px;
   left: 832px;
   color: #5B6E76;
   top: 0;
-  z-index: 2;
+  padding: 56px;
   background: #FFFFFF;
   box-shadow: 1px 1px 12px rgba(71, 71, 71, 0.06);
   border-radius: 5px;
 }
-.btn-submit{
+input[type=text] {
+  box-sizing: border-box;
+  position: absolute;
+  width: 212px;
+  height: 40px;
+  left: 56px;
+  top: 148px;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+}
+input[type=phone] {
+  box-sizing: border-box;
+  position: absolute;
+  width: 212px;
+  height: 40px;
+  left: 280px;
+  top: 148px;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+}
+input[type=email] {
+  box-sizing: border-box;
+  position: absolute;
+  width: 436px;
+  height: 40px;
+  left: 56px;
+  top: 228px;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+}
+textarea[name=comment] {
+  box-sizing: border-box;
+  position: absolute;
+  width: 436px;
+  height: 73px;
+  left: 56px;
+  top: 308px;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+}
+label[for=full-Name]{
+  position: absolute;
+  top: 124px;
+  left: 56px;
+}
+label[for=phone]{
+  position: absolute;
+  top: 124px;
+  left: 280px;
+}
+label[for=email]{
+  position: absolute;
+  top: 204px;
+  left: 56px;
+}
+label[for=notes]{
+  position: absolute;
+  top: 284px;
+  left: 56px;
+}
+button{
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -190,19 +309,18 @@ color: #142B35;
   position: absolute;
   width: 105px;
   height: 47px;
-  left:224px;
+  left: 224px;
   top: 413px;
   background: #F2B91D;
   border-radius: 5px;
-  width: 57px;
-height: 19px;
-font-family: 'Work Sans';
+  font-family: 'Work Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-/* identical to box height */
 color: #FFFFFF;
+/* Inside auto layout */
+
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -330,12 +448,31 @@ flex-direction: row;
 align-items: center;
 padding: 0px;
 gap: 904px;
-
 position: absolute;
 width: 1320px;
 height: 66px;
 left: 60px;
 top: 80px;
+}
+.wrap-blog-with{
+  width: 1440px;
+  height: 501px;
+  position: absolute;
+  top: 186px;
+
+}
+.blog-wrap{
+  top: 295px;
+  padding: 24px;
+  position: absolute;
+  float: left;
+height: 206px;
+width: 429px;
+box-shadow: 1px 1px 12px rgba(71, 71, 71, 0.03);
+border-radius: 5px;
+}
+.blog-wrap:hover{
+  color:  #3A98B2;
 }
 .title{
 display: flex;
@@ -387,7 +524,7 @@ color: #3A98B2;
   position: absolute;
   height: 295px;
   width: 429px;
-  top: 186px;
+  top: 0px;
 background-image: url('../assets/kelly-sikkema-WIYtZU3PxsI-unsplash.jpg');
 border-radius: 5px;
 }
