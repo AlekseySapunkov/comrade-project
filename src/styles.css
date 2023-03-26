@@ -41,9 +41,11 @@ line-height: 27px;
 letter-spacing: 0em;
 text-align: center;
 color: #5B6E76;
-
-
 }
+A:visited {
+  color:  #142B35;
+  /* Цвет посещенных ссылок */
+ }
 .menu{
   /* menu */
 position: sticky;
@@ -324,9 +326,6 @@ border-radius: 5px;
 flex: none;
 order: 1;
 flex-grow: 0;
-}
-.btn-article{
-
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 400;
@@ -335,9 +334,10 @@ line-height: 19px;
 /* identical to box height */
 color: #3A98B2;
 /* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+}
+.btn:hover{
+  background: #3A98B2;
+  color: #FFFFFF;
 }
 #map{
   position: absolute;
