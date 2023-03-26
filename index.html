@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Alliance moving & storage</title>
         <link rel="stylesheet" type="text/css" href="src/styles.css" />
+        <script src="https://api-maps.yandex.ru/2.1/?lang=en_US&amp;apikey=cd8cc1b2-3698-4bab-b838-d3bea05cbf36" type="text/javascript"></script>
+        <script src="src/index.js" type="text/javascript"></script>
     </head>
     <body>
         <header class="menu">
@@ -79,11 +81,37 @@
          </div>
         </a>
         </div>
-        <img class="map" src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Ae690af1c50fa443c330de44de8edd985f5a7e66deea496c6c294f3aa59c52778&amp;width=600&amp;height=450&amp;lang=en_US" style="border: 0;" alt="3201 TOLLVIEW DRIVE ROLLING MEADOWS, IL 60008">
-        <div class="blog">
+        <div class="container-form">
+        <div class="wrap-form">
+            <form method="post" action="form.php">
+                <div>
+                  <label for="full Name">Full Name <span>*</span></label><br>
+                  <input type="text" name="name" required>
+                </div>
+                <div>
+                  <label for="phone *">Phone <span>*</span></label><br>
+                  <input type="phone" name="phone" required>
+                </div>
+                <div>
+                  <label for="email">Email <span>*</span></label><br>
+                  <input type="email" name="email" required>
+                </div> 
+                <div>
+                    <label for="notes">Notes</label><br>
+                    <input type="notes" name="notes" >
+                  </div> 
+                <button class = "submit" type="submit">Submit</button> 
+              </form> 
+        </div>
+    </div>
+    <div id="map"></div>
+            <!--
+                <img class="map" src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Ae690af1c50fa443c330de44de8edd985f5a7e66deea496c6c294f3aa59c52778&amp;width=600&amp;height=450&amp;lang=en_US" style="border: 0;" alt="3201 TOLLVIEW DRIVE ROLLING MEADOWS, IL 60008">
+            -->
+                <div class="blog">
             <div class="blog-title">
             <div class="title">
-                <b class="grey-text">BLOG</b>
+                <b class="blog-text">BLOG</b>
                 <h2>OUR LATEST MOVING TIP</h2>
             </div>
             <button class="btn">
