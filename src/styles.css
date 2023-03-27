@@ -351,6 +351,29 @@ letter-spacing: 0em;
 text-align: left;
 color: #142B35;
 }
+.btn-submit:hover{
+  background: #ECB51D;
+
+}
+.frame-106>b {
+  order: 0;
+  margin-top: 0px;
+  text-align: left;
+  justify-content: left;
+}
+.frame-106>h2 {
+  order: 0;
+  float: left;
+  margin-top: 8px;
+  margin-left: 0px;
+}
+.frame-106>p {
+  left: 58px;
+  order: 0;
+  float: left;
+  margin-top: 16px;
+  text-align: left;
+}
 .btn-quote{
   margin:  auto;
   height: 51px;
