@@ -125,7 +125,7 @@ justify-content: center;
 padding: auto;
 width: 100%;
 height: 772px;
-top: 1058px;
+top: 24%;
 background: #FFFFFF;
 }
 .card{
@@ -155,9 +155,9 @@ background: #FFFFFF;
 .container-form{
 position: absolute;
 width: 100%;
-height: 676px;
+height: 500px;
 left: 2px;
-top: 1930px;
+top: 2100px;
 padding-left: 58px;
 }
 .frame-111{
@@ -200,7 +200,7 @@ padding-left: 58px;
   width: 211.79px;
   height: 24px;
   left: 58px;
-  bottom: 198px;
+  bottom: 25px;
 }
 .frame-106{
   position: absolute;
@@ -324,8 +324,6 @@ font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 color: #FFFFFF;
-/* Inside auto layout */
-
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -404,7 +402,7 @@ color: #142B35;
   position: absolute;
   width: 442px;
   height: 54px; 
-  top: 964px;
+  top: 23%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
@@ -443,8 +441,8 @@ white-space: nowrap;
 width: 90px;
 height: 20px;
 left: 50%;
-margin-right: 50%;
-top: 866px;
+top: 21%;
+transform: translate(-50%, -50%);
 text-transform: uppercase;
 color: #738697;
 }
@@ -452,8 +450,9 @@ color: #738697;
 position: absolute;
 width: 540px;
 height: 54px;
-left: 50%;
-top: 894px;
+left: 50%; 
+transform: translate(-50%, -50%);
+top: 22%;
 font-family: Work Sans;
 font-size: 32px;
 font-weight: 500;
@@ -475,7 +474,7 @@ padding-bottom: 0%;
 .blog-title{
 display: flex;
 flex-direction: row;
-align-items: center;
+align-items: left;
 padding: 0px;
 gap: 904px;
 position: absolute;
